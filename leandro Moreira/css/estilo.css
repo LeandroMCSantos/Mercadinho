@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    font-family: monospace;
+}
+
+header{
+    background-color: brown ;
+    padding: 18px;
+    margin-bottom: 18px;
+}
+
+header > h2{
+    color:black;
+}
+footer{
+    background-color:burlywood;
+font-family: monospace;
+padding: 10px;
+}
+footer > ul{
+    color:black;
+    font-weight: bold;
+}
+
+.container{
+    font-family: monospace;
+    padding: 20px;
+    margin:auto;
+    margin-bottom: 18px;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.div-produtos{
+    margin-top: 18px;
+    display:grid;
+    
+}
+.div-produtos > label{
+    margin-bottom: 8px; 
+}
